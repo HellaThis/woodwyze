@@ -7,12 +7,12 @@
       "links": [
         {
           "title": "Walnut Coffee Table Build",
-          "url": "https://youtube.com/embed/example-coffee-table",
+          "url": "https://www.youtube.com/embed/bHssvtsv_XQ",
           "description": "A step-by-step build of a modern walnut coffee table.",
           "level": "Intermediate",
           "tags": ["Furniture", "Walnut", "Modern"],
           "video": true,
-          "image": "https://example.com/images/coffee-table.jpg"
+          "image": "https://i.ytimg.com/vi/zsD0kG0Mpes/maxresdefault.jpg"
         },
         {
           "title": "Live Edge River Table",
@@ -21,7 +21,7 @@
           "level": "Advanced",
           "tags": ["Epoxy", "Live Edge", "Furniture"],
           "video": true,
-          "image": "https://example.com/images/river-table.jpg"
+          "image": "https://i.etsystatic.com/31737596/r/il/4381fb/3888982916/il_570xN.3888982916_5nwf.jpg"
         },
         {
           "title": "Simple Cutting Board",
@@ -29,7 +29,7 @@
           "description": "A quick and easy cutting board project for beginners.",
           "level": "Basic",
           "tags": ["Cutting Board", "Beginner", "Kitchen"],
-          "image": "https://example.com/images/cutting-board.jpg"
+          "image": "https://st3.depositphotos.com/1010050/19226/i/450/depositphotos_192263790-stock-photo-wooden-cutting-board.jpg"
         }
       ]
     },
