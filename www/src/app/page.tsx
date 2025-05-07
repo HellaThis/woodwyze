@@ -7,12 +7,12 @@ export default function HomePage() {
       <section className="text-center my-12 px-4" id="overview">
         <h2 className="text-3xl font-bold text-green-900">The Smarter Way to Work with Wood</h2>
         <p className="mt-4 text-neutral-700 max-w-2xl mx-auto">
-          WoodWyze is your all-in-one hub for discovering hardwood, planning your builds, managing your workshop, and selling your handcrafted creations. We're just getting started—join us as we redefine what's possible in modern woodworking.
+          WoodWyze is your all-in-one hub for discovering hardwood, planning your builds, managing your workshop, and selling your handcrafted creations. We&#39;re just getting started—join us as we redefine what&#39;s possible in modern woodworking.
         </p>
       </section>
 
       <section className="max-w-6xl mx-auto px-4" id="features">
-        <h2 className="text-2xl font-semibold text-center text-green-900 mb-8">What You'll Be Able to Do</h2>
+        <h2 className="text-2xl font-semibold text-center text-green-900 mb-8">What You&#39;ll Be Able to Do</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="rounded-2xl bg-white p-6 shadow">
             <h3 className="text-lg font-bold text-green-800 mb-2">Discover New Sources</h3>
