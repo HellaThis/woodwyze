@@ -1,39 +1,137 @@
 {
   "adam": [
     {
-      "name": "Project Links",
-      "slug": "project-links",
-      "description": "A collection of links to my current projects.",
+      "name": "My Woodworking Projects",
+      "slug": "woodworking-projects",
+      "description": "A showcase of my completed and ongoing woodworking projects.",
       "links": [
         {
-          "title": "WoodWyze Dashboard",
-          "url": "https://woodwyze.com",
-          "description": "The main dashboard for managing WoodWyze."
+          "title": "Walnut Coffee Table Build",
+          "url": "https://youtube.com/example-coffee-table",
+          "description": "A step-by-step build of a modern walnut coffee table.",
+          "level": "Intermediate",
+          "tags": ["Furniture", "Walnut", "Modern"]
         },
         {
-          "title": "My GitHub",
-          "url": "https://github.com/hellathis",
-          "description": "Where all my code lives."
+          "title": "Live Edge River Table",
+          "url": "https://youtube.com/example-river-table",
+          "description": "Building a stunning live edge river table with epoxy.",
+          "level": "Advanced",
+          "tags": ["Epoxy", "Live Edge", "Furniture"]
+        },
+        {
+          "title": "Simple Cutting Board",
+          "url": "https://youtube.com/example-cutting-board",
+          "description": "A quick and easy cutting board project for beginners.",
+          "level": "Basic",
+          "tags": ["Cutting Board", "Beginner", "Kitchen"]
         }
       ]
     },
     {
-      "name": "Resources",
-      "slug": "resources",
-      "description": "Helpful links for learning and growing as a woodworker.",
-      "links": []
+      "name": "Woodworking Tutorials",
+      "slug": "woodworking-tutorials",
+      "description": "Step-by-step guides for building your skills and mastering new techniques.",
+      "links": [
+        {
+          "title": "10 Must-Know Wood Joinery Techniques",
+          "url": "https://example.com/joinery-techniques",
+          "description": "A guide to the most essential wood joinery methods.",
+          "level": "Intermediate",
+          "tags": ["Joinery", "Technique", "Skill Building"]
+        },
+        {
+          "title": "How to Use a Router Table",
+          "url": "https://example.com/router-table-tutorial",
+          "description": "Learn to use a router table for precision cuts and joinery.",
+          "level": "Intermediate",
+          "tags": ["Router", "Tool Usage", "Technique"]
+        },
+        {
+          "title": "Sharpening Your Hand Tools",
+          "url": "https://example.com/sharpening-hand-tools",
+          "description": "Keep your chisels, planes, and other hand tools razor sharp.",
+          "level": "Basic",
+          "tags": ["Tool Maintenance", "Sharpening", "Hand Tools"]
+        }
+      ]
     },
     {
-      "name": "Tutorials",
-      "slug": "tutorials",
-      "description": "Step-by-step guides and tutorials.",
-      "links": []
+      "name": "Woodworking Inspiration",
+      "slug": "woodworking-inspiration",
+      "description": "Beautiful projects and designs to inspire your next build.",
+      "links": [
+        {
+          "title": "20 Stunning Mid-Century Modern Designs",
+          "url": "https://example.com/mid-century-modern",
+          "description": "Get inspired by these classic mid-century modern projects.",
+          "level": "All Levels",
+          "tags": ["Mid-Century", "Furniture", "Design"]
+        },
+        {
+          "title": "Rustic Cabin Interiors",
+          "url": "https://example.com/rustic-cabins",
+          "description": "Ideas for bringing rustic charm into your home.",
+          "level": "All Levels",
+          "tags": ["Rustic", "Cabin", "Interior Design"]
+        }
+      ]
     },
     {
-      "name": "Favorites",
-      "slug": "favorites",
-      "description": "Some of my all-time favorite woodworking resources.",
-      "links": []
+      "name": "Online Woodworking Retailers",
+      "slug": "woodworking-retailers",
+      "description": "Trusted online stores for woodworking tools and supplies.",
+      "links": [
+        {
+          "title": "Rockler Woodworking and Hardware",
+          "url": "https://rockler.com",
+          "description": "Everything you need for woodworking projects.",
+          "level": "All Levels",
+          "tags": ["Tools", "Supplies", "Retailer"]
+        },
+        {
+          "title": "Woodcraft",
+          "url": "https://woodcraft.com",
+          "description": "A wide range of woodworking tools and materials.",
+          "level": "All Levels",
+          "tags": ["Tools", "Materials", "Retailer"]
+        },
+        {
+          "title": "Highland Woodworking",
+          "url": "https://highlandwoodworking.com",
+          "description": "Quality tools and resources for serious woodworkers.",
+          "level": "All Levels",
+          "tags": ["Tools", "Supplies", "Retailer"]
+        }
+      ]
+    },
+    {
+      "name": "Hardwood Suppliers",
+      "slug": "hardwood-suppliers",
+      "description": "Where to find high-quality hardwood for your projects.",
+      "links": [
+        {
+          "title": "Bell Forest Products",
+          "url": "https://bellforestproducts.com",
+          "description": "Specialty hardwoods and exotic wood.",
+          "level": "All Levels",
+          "tags": ["Hardwood", "Exotic", "Suppliers"]
+        },
+        {
+          "title": "Woodworkers Source",
+          "url": "https://woodworkerssource.com",
+          "description": "Domestic and exotic hardwoods, turning blanks, and more.",
+          "level": "All Levels",
+          "tags": ["Hardwood", "Suppliers", "Exotic Wood"]
+        },
+        {
+          "title": "Cook Woods",
+          "url": "https://cookwoods.com",
+          "description": "Premium hardwoods from around the world.",
+          "level": "All Levels",
+          "tags": ["Hardwood", "Exotic", "Suppliers"]
+        }
+      ]
     }
   ]
 }
