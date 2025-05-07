@@ -3,7 +3,13 @@ logsBucket: gs://ww_build_logs
 steps:
   # Step 1: Build the Docker image
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/$PROJECT_ID/www', '.']
+    args:
+      - 'build'
+      - '-t'
+      - 'gcr.io/$PROJECT_ID/www'
+      - '-f'
+      - './www/Dockerfile'
+      - './www'
 
   # Step 2: Push the Docker image to Container Registry
   - name: 'gcr.io/cloud-builders/docker'
@@ -22,7 +28,7 @@ steps:
       - 'managed'
       - '--allow-unauthenticated'
       - '--region'
-      - 'us-central1'
+      - '${_REGION}'
       - '--port'
       - '8080'
 
