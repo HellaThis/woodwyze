@@ -7,24 +7,29 @@
       "links": [
         {
           "title": "Walnut Coffee Table Build",
-          "url": "https://youtube.com/example-coffee-table",
+          "url": "https://youtube.com/embed/example-coffee-table",
           "description": "A step-by-step build of a modern walnut coffee table.",
           "level": "Intermediate",
-          "tags": ["Furniture", "Walnut", "Modern"]
+          "tags": ["Furniture", "Walnut", "Modern"],
+          "video": true,
+          "image": "https://example.com/images/coffee-table.jpg"
         },
         {
           "title": "Live Edge River Table",
-          "url": "https://youtube.com/example-river-table",
+          "url": "https://youtube.com/embed/example-river-table",
           "description": "Building a stunning live edge river table with epoxy.",
           "level": "Advanced",
-          "tags": ["Epoxy", "Live Edge", "Furniture"]
+          "tags": ["Epoxy", "Live Edge", "Furniture"],
+          "video": true,
+          "image": "https://example.com/images/river-table.jpg"
         },
         {
           "title": "Simple Cutting Board",
-          "url": "https://youtube.com/example-cutting-board",
+          "url": "https://example.com/simple-cutting-board",
           "description": "A quick and easy cutting board project for beginners.",
           "level": "Basic",
-          "tags": ["Cutting Board", "Beginner", "Kitchen"]
+          "tags": ["Cutting Board", "Beginner", "Kitchen"],
+          "image": "https://example.com/images/cutting-board.jpg"
         }
       ]
     },
@@ -52,84 +57,8 @@
           "url": "https://example.com/sharpening-hand-tools",
           "description": "Keep your chisels, planes, and other hand tools razor sharp.",
           "level": "Basic",
-          "tags": ["Tool Maintenance", "Sharpening", "Hand Tools"]
-        }
-      ]
-    },
-    {
-      "name": "Woodworking Inspiration",
-      "slug": "woodworking-inspiration",
-      "description": "Beautiful projects and designs to inspire your next build.",
-      "links": [
-        {
-          "title": "20 Stunning Mid-Century Modern Designs",
-          "url": "https://example.com/mid-century-modern",
-          "description": "Get inspired by these classic mid-century modern projects.",
-          "level": "All Levels",
-          "tags": ["Mid-Century", "Furniture", "Design"]
-        },
-        {
-          "title": "Rustic Cabin Interiors",
-          "url": "https://example.com/rustic-cabins",
-          "description": "Ideas for bringing rustic charm into your home.",
-          "level": "All Levels",
-          "tags": ["Rustic", "Cabin", "Interior Design"]
-        }
-      ]
-    },
-    {
-      "name": "Online Woodworking Retailers",
-      "slug": "woodworking-retailers",
-      "description": "Trusted online stores for woodworking tools and supplies.",
-      "links": [
-        {
-          "title": "Rockler Woodworking and Hardware",
-          "url": "https://rockler.com",
-          "description": "Everything you need for woodworking projects.",
-          "level": "All Levels",
-          "tags": ["Tools", "Supplies", "Retailer"]
-        },
-        {
-          "title": "Woodcraft",
-          "url": "https://woodcraft.com",
-          "description": "A wide range of woodworking tools and materials.",
-          "level": "All Levels",
-          "tags": ["Tools", "Materials", "Retailer"]
-        },
-        {
-          "title": "Highland Woodworking",
-          "url": "https://highlandwoodworking.com",
-          "description": "Quality tools and resources for serious woodworkers.",
-          "level": "All Levels",
-          "tags": ["Tools", "Supplies", "Retailer"]
-        }
-      ]
-    },
-    {
-      "name": "Hardwood Suppliers",
-      "slug": "hardwood-suppliers",
-      "description": "Where to find high-quality hardwood for your projects.",
-      "links": [
-        {
-          "title": "Bell Forest Products",
-          "url": "https://bellforestproducts.com",
-          "description": "Specialty hardwoods and exotic wood.",
-          "level": "All Levels",
-          "tags": ["Hardwood", "Exotic", "Suppliers"]
-        },
-        {
-          "title": "Woodworkers Source",
-          "url": "https://woodworkerssource.com",
-          "description": "Domestic and exotic hardwoods, turning blanks, and more.",
-          "level": "All Levels",
-          "tags": ["Hardwood", "Suppliers", "Exotic Wood"]
-        },
-        {
-          "title": "Cook Woods",
-          "url": "https://cookwoods.com",
-          "description": "Premium hardwoods from around the world.",
-          "level": "All Levels",
-          "tags": ["Hardwood", "Exotic", "Suppliers"]
+          "tags": ["Tool Maintenance", "Sharpening", "Hand Tools"],
+          "image": "https://example.com/images/hand-tools.jpg"
         }
       ]
     }
