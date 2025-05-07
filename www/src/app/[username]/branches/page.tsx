@@ -36,7 +36,7 @@ export default function BranchesPage() {
 
   return (
     <div className="max-w-7xl mx-auto p-8">
-      <h1 className="text-4xl font-bold mb-6 text-green-800">{username}'s branches</h1>
+      <h1 className="text-4xl font-bold mb-6 text-green-800">{username}&#39;s branches</h1>
       <ul className="space-y-4">
         {branches.map((branch) => (
           <li key={branch.slug}>
