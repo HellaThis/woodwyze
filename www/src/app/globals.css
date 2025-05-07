@@ -1,21 +1,20 @@
-/* src/app/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-neutral-50 text-neutral-800 font-sans;
-}
-
 h1 {
-  color: #ffffff;
+  color: #065f46; /* Dark green */
 }
 
 a {
-  color: #ffffff;
+  color: #065f46; /* Dark green */
   text-decoration: none;
 }
 
 a:hover {
-  color: #d1d5db;
+  color: #047857; /* Slightly lighter green */
+}
+
+body {
+  color: #000000; /* Black text */
 }

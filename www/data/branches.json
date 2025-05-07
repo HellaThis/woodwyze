@@ -1,0 +1,39 @@
+{
+  "adam": [
+    {
+      "name": "Project Links",
+      "slug": "project-links",
+      "description": "A collection of links to my current projects.",
+      "links": [
+        {
+          "title": "WoodWyze Dashboard",
+          "url": "https://woodwyze.com",
+          "description": "The main dashboard for managing WoodWyze."
+        },
+        {
+          "title": "My GitHub",
+          "url": "https://github.com/hellathis",
+          "description": "Where all my code lives."
+        }
+      ]
+    },
+    {
+      "name": "Resources",
+      "slug": "resources",
+      "description": "Helpful links for learning and growing as a woodworker.",
+      "links": []
+    },
+    {
+      "name": "Tutorials",
+      "slug": "tutorials",
+      "description": "Step-by-step guides and tutorials.",
+      "links": []
+    },
+    {
+      "name": "Favorites",
+      "slug": "favorites",
+      "description": "Some of my all-time favorite woodworking resources.",
+      "links": []
+    }
+  ]
+}
