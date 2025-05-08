@@ -68,8 +68,8 @@ export default function HomePage() {
           <h3 className="text-3xl font-bold text-green-900 mb-4">Ready to Join the Movement?</h3>
           <p className="text-lg text-gray-700 mb-8">Join the waiting list to be the first to know when WoodWyze
             launches.</p>
-          <Button className="bg-green-700 text-white px-8 py-4 rounded-xl text-lg">
-            <Link href="https://clerk.woodwyze.com/">Join the Waiting List</Link>
+          <Button className="text-black px-8 py-4 rounded-xl text-lg">
+            <Link className="text-white" href="https://accounts.woodwyze.com/waitlist">Join the Waiting List</Link>
           </Button>
         </div>
       </main>
