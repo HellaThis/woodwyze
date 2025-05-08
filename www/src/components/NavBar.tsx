@@ -5,7 +5,7 @@ import Image from 'next/image';
 import {useState} from 'react';
 import {Menu} from 'lucide-react';
 import {type Metadata} from 'next'
-import {ClerkProvider, SignedIn, SignedOut, SignInButton, SignUpButton, UserButton,} from '@clerk/nextjs'
+import {ClerkProvider, SignedIn, SignedOut, SignInButton, UserButton,} from '@clerk/nextjs'
 
 export const metadata: Metadata = {
   title: 'Clerk Next.js Quickstart',
@@ -35,12 +35,12 @@ export default function NavBar() {
           <li>
             {/*<Link href="/marketplace" className="text-white hover:text-green-300">Marketplace</Link>*/}
             <ClerkProvider>
-                <SignedOut>
-                  <SignInButton/>
-                </SignedOut>
-                <SignedIn>
-                  <UserButton/>
-                </SignedIn>
+              <SignedOut>
+                <SignInButton/>
+              </SignedOut>
+              <SignedIn>
+                <UserButton/>
+              </SignedIn>
             </ClerkProvider>
           </li>
         </ul>
