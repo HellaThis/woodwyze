@@ -2,6 +2,7 @@
 import './globals.css';
 import {Metadata} from 'next';
 import NavBar from '../components/NavBar';
+import {ClerkProvider} from '@clerk/nextjs';
 
 export const metadata: Metadata = {
   title: 'WoodWyze',
@@ -17,13 +18,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-    <body className="bg-neutral-50 text-neutral-800 font-sans">
-    <header className="bg-green-900 text-white p-4 shadow">
-      <NavBar/>
-    </header>
-    <main className="max-w-7xl mx-auto px-4 py-8">{children}</main>
-    </body>
-    </html>
+    <ClerkProvider>
+      <html lang="en">
+      <body className="bg-neutral-50 text-neutral-800 font-sans">
+      <header className="bg-green-900 text-white p-4 shadow">
+        <NavBar/>
+      </header>
+      <main className="max-w-7xl mx-auto px-4 py-8">{children}</main>
+      </body>
+      </html>
+    </ClerkProvider>
+
   );
 }
