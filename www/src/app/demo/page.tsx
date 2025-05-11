@@ -67,11 +67,33 @@ export default function DemoPage() {
           }
 
           iframe.screen {
-            width: 90%;
-            height: 95%;
+            width: 390px;
+            height: 844px;
             border: none;
             border-radius: 30px; /* inner rounding */
             background: #000;
+          }
+
+          /* Hide bezel on mobile devices */
+          @media (hover: none) and (pointer: coarse) {
+            body {
+              background: #000;
+            }
+            .device {
+              width: 100vw;
+              height: 100vh;
+              border: none;
+              border-radius: 0;
+              box-shadow: none;
+            }
+            .device::before,
+            .device::after {
+              display: none;
+            }
+            iframe.screen {
+              width: 100vw;
+              height: 100vh;
+            }
           }
         `}</style>
       </Head>
@@ -81,7 +103,9 @@ export default function DemoPage() {
           className="screen"
           src="https://wood-wyze-projects-61e4vo.flutterflow.app/"
           allow="clipboard-write; camera; microphone"
-          loading="lazy" width={390} height={844}
+          loading="lazy"
+          width={390}
+          height={844}
         ></iframe>
       </div>
     </>
