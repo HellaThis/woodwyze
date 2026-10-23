@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Archivo', system-ui, sans-serif;
+    font-variation-settings: 'wdth' 100;
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    @apply bg-paper text-graphite;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  :focus-visible {
+    outline: 2px solid #2f855a;
+    outline-offset: 2px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+}
+
+@layer components {
+  /* Wide, heavy Archivo carries the headlines; body stays at normal width. */
+  .display {
+    font-variation-settings: 'wdth' 125;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.02;
+  }
+  .condensed {
+    font-variation-settings: 'wdth' 75;
+  }
+  .num {
+    font-variant-numeric: tabular-nums;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-4 py-2.5 text-[15px] font-semibold transition-colors;
+  }
+  .btn-primary {
+    @apply btn bg-forest text-white hover:bg-leaf;
+  }
+  .btn-quiet {
+    @apply btn border border-rule bg-white text-graphite hover:border-leaf;
+  }
+  .field {
+    @apply w-full rounded-md border border-rule bg-white px-3 py-2 text-[15px] num focus:border-leaf focus:outline-none;
+  }
+  .label {
+    @apply mb-1 block text-sm font-medium text-graphite/80;
+  }
+  .panel {
+    @apply rounded-lg border border-rule bg-white;
+  }
+  .table-plain th {
+    @apply border-b border-rule px-3 py-2 text-left text-sm font-semibold text-graphite/70;
+  }
+  .table-plain td {
+    @apply border-b border-mist px-3 py-2 text-[15px] num;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: white;
+  }
+}
